@@ -1,10 +1,10 @@
 FROM node:16-buster-slim
 
-LABEL version="1.0.3"
-LABEL repository="https://github.com/sma11black/hexo-action"
-LABEL homepage="https://sma11black.github.io"
-LABEL maintainer="sma11black <smallblack@outlook.com>"
-
+LABEL version="1.0.4"
+LABEL repository="https://github.com/wansyu/hexo-action/"
+LABEL homepage="https://wansyu.github.io"
+LABEL maintainer="12646240+wansyu@users.noreply.github.com"
+ENV TZ=Asia/Shanghai
 COPY entrypoint.sh /entrypoint.sh
 COPY sync_deploy_history.js /sync_deploy_history.js
 
